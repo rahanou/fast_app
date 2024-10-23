@@ -1,7 +1,3 @@
-include ../../../make.inc
-include .env
-
-
 build:
 	@echo "Building docker image..."
 	@docker build -t $(DOCKER_IMAGE_NAME) .
